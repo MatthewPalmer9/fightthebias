@@ -8,14 +8,8 @@ export default class Navbar extends Component {
                     <li className="brand">
                         Fight The Bias
                     </li>
-                    <li className="list-item">
-                        <a href="/home">Home</a>
-                    </li>
-                    <li className="list-item">
-                        <a href="/faq">FAQ</a>
-                    </li>
 
-                    <li className="sub-brand"># BlackLivesMatter</li>
+                    <li className="sub-brand">#BlackLivesMatter</li>
                 </ul>
             </navbar>
         )

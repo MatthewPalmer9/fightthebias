@@ -7,7 +7,9 @@ body {
 
 .brand {
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 4rem;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 2px;
     color: white;
 }
     .sub-brand {
@@ -15,7 +17,22 @@ body {
         list-style: none;
     }
 
-.list-item, a {
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    /* height: 0; */
+}
+    .iframe-container iframe {
+        position: absolute;
+        top:0;
+        left: 1;
+        width: 80%;
+        height: 80%;
+        padding-left: 12%;
+    }
+
+.list-item {
     list-style: none;
     text-decoration: none;
     color: white;
@@ -24,9 +41,9 @@ body {
 
 .nav-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4px;
-    width: 50%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    width: 100%;
     text-align: center;
 }
  
