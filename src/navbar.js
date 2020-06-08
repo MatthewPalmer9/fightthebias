@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 export default class Navbar extends Component {
     render() {
         return(
-            <navbar className="main">
+            <div className="main">
                 <ul className="nav-list">
                     <li className="brand">
                         Fight The Bias
@@ -11,7 +11,7 @@ export default class Navbar extends Component {
 
                     <li className="sub-brand">#BlackLivesMatter</li>
                 </ul>
-            </navbar>
+            </div>
         )
     }
 }
