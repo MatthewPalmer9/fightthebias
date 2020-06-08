@@ -5,9 +5,9 @@ export default class Navbar extends Component {
         return(
             <div className="main">
                 <ul className="nav-list">
-                    <li className="brand">
+                    <div className="brand">
                         Fight The Bias
-                    </li>
+                    </div>
 
                     <li className="sub-brand">#BlackLivesMatter</li>
                 </ul>
