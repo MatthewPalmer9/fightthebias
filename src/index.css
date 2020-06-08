@@ -17,6 +17,23 @@ body {
         list-style: none;
     }
 
+.email-container {
+    background-color: rgba(50,50,50,0.8);
+    color: rgb(155, 155, 155);
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin-left: 10%;
+}
+    .email-container p {
+        padding: 1%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+        .email-container span {
+            color: lightgoldenrodyellow;
+        }
+
 .iframe-container {
     position: relative;
     width: 100%;
