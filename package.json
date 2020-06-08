@@ -1,0 +1,28 @@
+{
+  "name": "fightthebias",
+  "version": "1.0.0",
+  "description": "A static website dedicated to educational material on racism and #BlackLivesMatter",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --timeout 5000 -w ./test/*.js",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "webpack": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewPalmer9/fightthebias.git"
+  },
+  "author": "Matthew Ryan Palmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewPalmer9/fightthebias/issues"
+  },
+  "homepage": "https://github.com/MatthewPalmer9/fightthebias#readme"
+}
