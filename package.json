@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/MatthewPalmer9/fightthebias/issues"
   },
-  "homepage": "https://github.com/MatthewPalmer9/fightthebias#readme"
+  "homepage": "https://github.com/MatthewPalmer9/fightthebias#readme",
+  "devDependencies": {
+    "terser-brunch": "^4.0.0"
+  }
 }
